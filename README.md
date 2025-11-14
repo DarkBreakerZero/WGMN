@@ -1,4 +1,4 @@
-# WGMN: Wavelet-Guided Mamba Network for Texture-Faithful CT Super-Resolution
+# WGMN: Wavelet-Guided Mamba Network for Texture-Preserving CT Super-Resolution
 Tong Lin#, Yikun Zhang*, Yang Chen, et al.
 
 
