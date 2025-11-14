@@ -1,0 +1,71 @@
+########## spec_config ##########
+
+### default
+model = 'mambav2'
+net_idx = 'MNSRN'
+path_key = 'HD'
+path_img = '/mnt/no3/user/dataset'
+
+### task
+ratio = 5
+
+### data
+c_z = 4
+c_y = 256
+c_x = 256
+
+vc_z = 4
+vc_y = 256
+vc_x = 256
+
+### Task based model design
+T_mask = False
+T_pos = True
+T3d_mlp = 4
+T_rc = '1conv'
+
+# encoder config
+T3dE_w = [2,2,2]
+T3dE_l = 1
+T3dE_d = 4
+T3dE_n = 8
+T3dE_c = 32
+
+# decoder config
+TD_s = 1
+TD_p = 8
+TD_n = 8
+
+TD_Td = 4
+TD_Tl = 1
+TD_Tw = 4
+
+TD_Id = 4
+TD_Il = 2
+TD_Iw = 8
+
+########## common_config ##########
+gpu_idx = 0
+mode = 'train'
+***********************************
+
+**** train & val config ****
+# train set
+epoch = 3000
+start_epoch = 1
+
+# dataloader set
+train_bs = 1
+num_workers = 4
+val_bs = 1
+test_num_workers = 4
+***********************************
+
+**** optimizer config ****
+wd = 0.0001
+lr = 0.00000005
+gap_val = 5
+patience = 60
+***********************************
+
+

@@ -1,0 +1,65 @@
+{
+  "train": [
+    "CT00000000.nii.gz",
+    "CT00000001.nii.gz",
+    "CT00000002.nii.gz",
+    "CT00000003.nii.gz",
+    "CT00000004.nii.gz",
+    "CT00000005.nii.gz",
+    "CT00000006.nii.gz",
+    "CT00000007.nii.gz",
+    "CT00000008.nii.gz",
+    "CT00000009.nii.gz",
+    "CT00000010.nii.gz",
+    "CT00000011.nii.gz",
+    "CT00000012.nii.gz",
+    "CT00000013.nii.gz",
+    "CT00000014.nii.gz",
+    "CT00000015.nii.gz",
+    "CT00000016.nii.gz",
+    "CT00000017.nii.gz",
+    "CT00000018.nii.gz",
+    "CT00000019.nii.gz",
+    "CT00000100.nii.gz",
+    "CT00000101.nii.gz",
+    "CT00000102.nii.gz",
+    "CT00000103.nii.gz",
+    "CT00000104.nii.gz",
+    "CT00000105.nii.gz",
+    "CT00000106.nii.gz",
+    "CT00000107.nii.gz",
+    "CT00000108.nii.gz",
+    "CT00000109.nii.gz",
+    "CT00000150.nii.gz",
+    "CT00000151.nii.gz",
+    "CT00000152.nii.gz",
+    "CT00000153.nii.gz",
+    "CT00000154.nii.gz",
+    "CT00000155.nii.gz",
+    "CT00000156.nii.gz",
+    "CT00000157.nii.gz",
+    "CT00000158.nii.gz",
+    "CT00000159.nii.gz"
+
+  ],
+  "val": [
+    "CT00000160.nii.gz",
+    "CT00000161.nii.gz",
+    "CT00000162.nii.gz",
+    "CT00000163.nii.gz",
+    "CT00000164.nii.gz",
+    "CT00000165.nii.gz"
+
+
+
+
+
+  ],
+  "test": [
+    "CT00000166.nii.gz",
+    "CT00000167.nii.gz",
+    "CT00000168.nii.gz",
+    "CT00000169.nii.gz"
+  ],
+  "path_img": "/mnt/no3/lintong/SRdata/"
+}
